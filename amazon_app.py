@@ -21,7 +21,6 @@ Customer_Location = st.selectbox('Customer Location', options=['New York', 'San 
        'Miami', 'Boston', 'Seattle', 'Los Angeles', 'Chicago'])
 Payment_Method = st.selectbox('Payment Method', options=['Debit Card', 'Amazon Pay', 'Credit Card', 'PayPal', 'Gift Card'])
 
-
 input_data = {
     'Product': Product,
     'Category': Category,
